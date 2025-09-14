@@ -1,0 +1,53 @@
+{
+  "type": "commonjs",
+  "name": "baileys-shard",
+  "version": "0.0.1",
+  "description": "A lightweight baileys multi session for whatsapp bot.",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    "require": "./dist/index.cjs",
+    "import": "./dist/index.mjs",
+    "default": "./dist/index.cjs"
+  },
+  "scripts": {
+    "test": "node /test/test.js",
+    "clean": "rm -rf dist && echo '\n\nDist directory has been cleaned.\n\n'",
+    "build": "tsup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZTRdiamond/baileys-shard.git"
+  },
+  "keywords": [
+    "baileys",
+    "whatsapp-bot",
+    "shard",
+    "jadibot",
+    "wabot",
+    "botwa",
+    "baileys-shard"
+  ],
+  "author": "ZTRdiamond",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZTRdiamond/baileys-shard/issues"
+  },
+  "homepage": "https://github.com/ZTRdiamond/baileys-shard#readme",
+  "dependencies": {
+    "baileys": "6.7.19",
+    "events": "3.3.0",
+    "glob": "11.0.3",
+    "path": "0.12.7",
+    "qr-image": "3.2.0",
+    "util": "^0.12.5"
+  },
+  "devDependencies": {
+    "@types/node": "22.13.8",
+    "desm": "1.3.1",
+    "fs": "0.0.1-security",
+    "tsup": "8.4.0",
+    "typescript": "5.8.2"
+  }
+}

@@ -1,0 +1,13 @@
+# source
+src
+test
+sessions
+node_modules
+.git
+
+# build
+tsconfig.json
+tsup.config.ts
+
+# tmp
+malas_ngoding.jpg

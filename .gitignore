@@ -1,0 +1,14 @@
+# build
+dist
+*.js
+
+# dependencies
+node_modules
+
+# logs
+npm-debug.log
+
+# cache
+sessions
+baileys-shard-logs.txt 
+.npm 
