@@ -8,7 +8,7 @@ Built for developers who want to **manage WhatsApp multi-session programmaticall
 
 ***
 
-[![NPM Version](https://img.shields.io/npm/v/cainode?style=for-the-badge&logo=npm)](https://www.npmjs.com/package/baileys-shard)
+[![NPM Version](https://img.shields.io/npm/v/baileys-shard?style=for-the-badge&logo=npm)](https://www.npmjs.com/package/baileys-shard)
 [![GitHub Stars](https://img.shields.io/github/stars/ztrdiamond/baileys-shard?style=for-the-badge&logo=github)](https://github.com/ztrdiamond/baileys-shard)
 [![GitHub Repo Size](https://img.shields.io/github/repo-size/ztrdiamond/baileys-shard?style=for-the-badge&logo=github)](https://github.com/ztrdiamond/baileys-shard)
 [![Last Commit](https://img.shields.io/github/last-commit/ztrdiamond/baileys-shard?style=for-the-badge&logo=git)](https://github.com/ztrdiamond/baileys-shard)
