@@ -1,4 +1,4 @@
-export class ShardError extends Error {
+export default class ShardError extends Error {
   code: string;
 
   constructor(message: string, code: string = "UNKNOWN") {
@@ -7,8 +7,4 @@ export class ShardError extends Error {
     this.code = code;
     Object.setPrototypeOf(this, new.target.prototype);
   }
-}
-
-export default {
-  ShardError
 }

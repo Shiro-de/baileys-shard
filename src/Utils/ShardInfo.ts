@@ -1,6 +1,6 @@
 import { ShardInfoConstructorParams, ShardInfoUpdateFields } from "../Types/index";
 
-export class ShardInfo {
+export default class ShardInfo {
   public id: string | number;
   public index: number;
   public total: number;

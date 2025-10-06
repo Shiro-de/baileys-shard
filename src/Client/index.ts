@@ -13,8 +13,8 @@ import {
   ConnectionUpdate,
 } from "../Types/index";
 
-import { ShardInfo } from "../Utils/ShardInfo";
-import { ShardError } from "../Utils/Error";
+import ShardInfo from "../Utils/ShardInfo";
+import ShardError from "../Utils/Error";
 
 const logger = Pino(
   {
@@ -48,7 +48,7 @@ function wrapShardError(
   };
 }
 
-export class ShardManager extends EventEmitter {
+export default class ShardManager extends EventEmitter {
   #sessionDirectory: string = "./sessions";
   #shards: Map<string, any> = new Map();
   #shardsInfo: Map<string, ShardInfo> = new Map();
